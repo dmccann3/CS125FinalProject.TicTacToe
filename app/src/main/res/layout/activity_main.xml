@@ -29,11 +29,13 @@
         android:layout_marginRight="162dp"
         android:layout_marginBottom="364dp"
         android:onClick="startGame"
-        android:text="Start"
+        android:text="Start Game"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:text="Start" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Start Game" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

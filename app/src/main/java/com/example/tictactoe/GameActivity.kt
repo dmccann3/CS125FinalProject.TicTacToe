@@ -2,6 +2,10 @@ package com.example.tictactoe
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log;
+import java.util.ArrayList;
+import java.util.List;
+
 
 class GameActivity : AppCompatActivity() {
 
@@ -10,3 +14,9 @@ class GameActivity : AppCompatActivity() {
         setContentView(R.layout.activity_game)
     }
 }
+
+
+
+
+
+
